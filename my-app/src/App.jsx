@@ -4,7 +4,8 @@ export default function ImageGallery() {
   const [images, setImages] = useState([
     { id: 28, title: "Paisaje" },
     { id: 103, title: "Tranquilidad" },
-    { id: 65, title: "Atardecer" }
+    { id: 65, title: "Atardecer" },
+    { id: 24, title: "Libro" }
   ]);
   const [search, setSearch] = useState("");
   const [newTitle, setNewTitle] = useState("");
